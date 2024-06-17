@@ -1,6 +1,6 @@
 /*
 
-Row Number Half Pyramid
+Col Number Half Pyramid
 
 1
 1 2
@@ -10,7 +10,7 @@ Row Number Half Pyramid
 
 */
 
-console.log('Row Number Half Pyramid');
+console.log('Col Number Half Pyramid');
 for (let i = 1; i <= 5; i++) {
     let str = '';
     for (let j = 1; j <= i; j++) {
