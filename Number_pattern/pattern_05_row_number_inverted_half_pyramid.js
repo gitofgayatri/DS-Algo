@@ -10,11 +10,11 @@ Row Number Inverted Half Pyramid
 
 */
 
-console.log("Row Number Inverted Half Pyramid");
+console.log('Row Number Inverted Half Pyramid');
 for (let i = 1; i <= 5; i++) {
-    let pattern = " ";
+    let pattern = ' ';
     for (let j = 5; j >= i; j--) {
-        pattern = pattern + i + " ";
+        pattern = pattern + i + ' ';
     }
     console.log(pattern);
 }
